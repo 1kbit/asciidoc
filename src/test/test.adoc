@@ -1,12 +1,12 @@
-include::../res/doc/base-attribute.adoc[]
+//Attributes
+include::../res/def/base-attribute.adoc[]
+:imagesdir: ../res/img/
 
 = Training for Asciidoc
 
 indexページには情報を載せず、inludeで構成しています
 
-include::ref_link.adoc[]
-
-include::ref_jirei.adoc[]
+image::test.dio.png[]
 
 = LEVEL 1
 == LEVEL 2

@@ -1,0 +1,35 @@
+//全ドキュメントで共用するasciidocのAttributesを管理
+//本ファイルには変更不要な属性を定義する
+//将来的に変更する可能性のあるものはproperties.adocへ定義のこと
+
+//目次を設定。表示場所、タイトル、階層は最大の5
+:toc: left
+:toc-title: お品書き
+:toclevels: 5       
+//章番号の付与を有効化。階層は最大の5
+:sectnums:
+:sectnumlevels: 5
+//セクションにアンカー/リンクを設定
+:sectanchors:
+:sectlinks:
+//文書属性を設定。日本語、本　
+:lang: ja
+:doctype: book
+//アイコン表示を有効化
+:icons: font
+//キャプションの設定
+:example-caption: 例
+:table-caption: 表
+:figure-caption: 図
+
+//フッター削除
+//:nofooter:
+
+:last-update-label: "aaa"
+
+//可変定義を読み込み
+include::properties.adoc[]
+
+//画像管理フォルダ
+//(各ファイルからの相対パスを指定する必要あり本ファイルでの指定不可)
+//:imagesdir: /../img/

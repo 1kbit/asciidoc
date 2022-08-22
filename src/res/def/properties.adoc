@@ -1,0 +1,14 @@
+//全ドキュメントで共用するasciidocのAttributesを管理
+//本ファイルには変更可能な属性を定義する
+//将来に渡り変更不要な属性はbase-attribute.adocへ定義のこと
+
+//作成者
+:author: Team XXX
+//バージョン (必要か？)
+:revnumber: 1.0
+//公開日 (必要か？)
+:revdate: {docdate}
+//ホームページ
+:homepage: http://hogehoge.example.com
+
+= aaa
